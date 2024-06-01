@@ -1,0 +1,18 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="250" d:DesignHeight="480"
+             x:Class="ToDoList.Views.ToDoListView">
+    <DockPanel>
+        <Button DockPanel.Dock="Bottom"
+                HorizontalAlignment="Right"
+                HorizontalContentAlignment="Center">
+            Add Item
+        </Button>
+        <StackPanel>
+            <CheckBox Margin="4">Test the Water</CheckBox>
+            <CheckBox Margin="4">20% TPA</CheckBox>
+        </StackPanel>
+    </DockPanel>
+</UserControl>
